@@ -1,0 +1,14 @@
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.deps.json
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.runtimeconfig.json
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.runtimeconfig.dev.json
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.dll
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.pdb
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.csprojAssemblyReference.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.csproj.CoreCompileInputs.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.RazorAssemblyInfo.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.RazorAssemblyInfo.cs
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.AssemblyInfoInputs.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.AssemblyInfo.cs
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.RazorTargetAssemblyInfo.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.dll
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.pdb
