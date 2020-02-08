@@ -1,0 +1,11 @@
+﻿@model IEnumerable<CookieStore.Models.Cookie>
+
+<h1>@ViewBag.Title</h1>
+@foreach(var cookie in Model)
+{
+    <div>
+        <h2>@cookie.Name</h2>
+        <h3>@cookie.Price</h3>
+        <h3>@cookie.FullDescription</h3>
+    </div>
+}

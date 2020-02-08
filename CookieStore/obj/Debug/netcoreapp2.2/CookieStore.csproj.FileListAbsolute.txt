@@ -12,3 +12,14 @@ D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.Ass
 D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.RazorTargetAssemblyInfo.cache
 D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.dll
 D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.pdb
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.Views.dll
+D:\Code\Praticas\CookieStore\CookieStore\bin\Debug\netcoreapp2.2\CookieStore.Views.pdb
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.TagHelpers.input.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.TagHelpers.output.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.RazorCoreGenerate.cache
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.RazorTargetAssemblyInfo.cs
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.Views.pdb
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\CookieStore.csproj.CopyComplete
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Code\Praticas\CookieStore\CookieStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
