@@ -1,4 +1,5 @@
 ﻿using CookieStore.Models;
+using CookieStore.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,16 @@ namespace CookieStore.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Title = "Cookies and only Cookies";
-            var cookies = _repository.GetAllCookies().OrderByDescending(x => x.Price);
-            return View(cookies);
+            //ViewBag.Title = "Cookies and only Cookies";
+            //var cookies = _repository.GetAllCookies().OrderByDescending(x => x.Price);
+            //return View(cookies);
+            HomeViewModel viewModel = new HomeViewModel
+            {
+                Title = "Cookies and only Cookies",
+                Cookies = _repository.GetAllCookies().OrderByDescending(x => x.Price).ToList()               
+            };
+
+            return View(viewModel);
         }
     }
 }

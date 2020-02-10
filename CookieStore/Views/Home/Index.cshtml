@@ -1,11 +1,21 @@
-﻿@model IEnumerable<CookieStore.Models.Cookie>
+﻿@model CookieStore.ViewModels.HomeViewModel
 
 <h1>@ViewBag.Title</h1>
-@foreach(var cookie in Model)
+@foreach(var cookie in Model.Cookies)
 {
-    <div>
+    @*<div>
         <h2>@cookie.Name</h2>
         <h3>@cookie.Price</h3>
         <h3>@cookie.FullDescription</h3>
+    </div>*@
+    <div>
+        <div class="img-thumbnail">
+            <img src="@cookie.ImageUrl" alt="" />
+            <div class="figure-caption">
+                <h3 class="text-left" style="position:absolute">@cookie.Name</h3>
+                <h3 class="text-right">@cookie.Price.ToString("c")</h3>
+                <p>@cookie.TinyDescription</p>
+            </div>
+        </div>
     </div>
 }
