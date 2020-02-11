@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -8,8 +9,23 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <nav>
+        <div class="container">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a asp-controller="Home" asp-action="Index" class="navbar-brand">
+                            Cookie Store
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <div>
+            @RenderBody()
+        </div>        
     </div>
 </body>
 </html>

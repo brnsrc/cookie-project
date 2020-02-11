@@ -29,5 +29,11 @@ namespace CookieStore.Controllers
 
             return View(viewModel);
         }
+
+        public IActionResult Details(int id)
+        {
+            var cookie = _repository.GetCookieById(id);
+            return View(cookie);
+        }
     }
 }

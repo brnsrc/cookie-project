@@ -1,6 +1,8 @@
-﻿@model CookieStore.ViewModels.HomeViewModel
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model CookieStore.ViewModels.HomeViewModel
 
 <h1>@ViewBag.Title</h1>
+<br/>
 @foreach(var cookie in Model.Cookies)
 {
     @*<div>
@@ -12,7 +14,11 @@
         <div class="img-thumbnail">
             <img src="@cookie.ImageUrl" alt="" />
             <div class="figure-caption">
-                <h3 class="text-left" style="position:absolute">@cookie.Name</h3>
+                <h3 class="text-left" style="position:absolute">
+                    <a asp-controller="Home" asp-action="Details" asp-route-id="@cookie.Id">
+                        @cookie.Name
+                    </a> 
+                </h3>
                 <h3 class="text-right">@cookie.Price.ToString("c")</h3>
                 <p>@cookie.TinyDescription</p>
             </div>

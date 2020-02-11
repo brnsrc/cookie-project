@@ -26,7 +26,7 @@ namespace CookieStore
             services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(
                 Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
-            services.AddTransient<IRepository, MockRepository> ();
+            services.AddTransient<IRepository, Repository> ();
 
         }
 
@@ -46,7 +46,6 @@ namespace CookieStore
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
-
         }
     }
 }
